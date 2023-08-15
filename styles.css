@@ -27,3 +27,7 @@ a {
 a:hover {
     color: #FFA500;
 }
+
+a:focus {
+    outline: 2px solid #FFA500;
+}
