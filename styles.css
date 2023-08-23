@@ -2,7 +2,7 @@ body {
     background-color: black;
     color: white;
     font-family: 'Poppins', sans-serif; /* Updated to Poppins */
-    font-weight: 150;
+    font-weight: 100;
     margin: 0;
     padding: 0;
     display: flex;
