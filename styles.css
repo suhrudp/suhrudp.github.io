@@ -1,7 +1,7 @@
 body {
     background-color: black;
     color: white;
-    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Poppins', sans-serif; /* Updated to Poppins */
     font-weight: 400;
     margin: 0;
     padding: 0;
@@ -10,6 +10,10 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
+}
+
+h1, h2 {
+    font-family: 'Cormorant Garamond', serif;
 }
 
 #profile-image {
