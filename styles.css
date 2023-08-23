@@ -22,6 +22,10 @@ h1, h2 {
     font-weight: 200;
 }
 
+h1 {
+    text-align: center !important;
+}
+
 #profile-image {
     border-radius: 50%;
     width: 150px;
