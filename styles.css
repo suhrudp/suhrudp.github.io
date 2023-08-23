@@ -1,5 +1,8 @@
 * {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
+    overflow-x: hidden; /* Prevent horizontal scroll */
 }
 
 body {
@@ -7,8 +10,6 @@ body {
     color: white;
     font-family: 'Poppins', sans-serif;
     font-weight: 100;
-    margin: 0;
-    padding: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -24,7 +25,7 @@ h1, h2 {
 #profile-image {
     border-radius: 50%;
     width: 150px;
-    margin: 20px;
+    margin: 20px 0; /* Condensed margin properties */
 }
 
 h1 {
@@ -56,17 +57,15 @@ a:focus {
 footer {
     margin-top: 40px;
     font-size: 16px;
-    text-align: center; /* Ensure text is centered in footer */
+    text-align: center;
 }
 
-/* Media Query for small devices like phones */
 @media (max-width: 768px) {
     body {
-        padding-left: 10px; /* Adding some padding to prevent content touching the edges */
-        padding-right: 10px;
+        padding: 0 10px; /* Shortened padding definition */
     }
 
     #about {
-        max-width: 90%; /* Allow for a little more room on small screens */
+        max-width: 90%;
     }
 }
