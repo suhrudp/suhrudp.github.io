@@ -1,7 +1,11 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: black;
     color: white;
-    font-family: 'Poppins', sans-serif; /* Updated to Poppins */
+    font-family: 'Poppins', sans-serif;
     font-weight: 100;
     margin: 0;
     padding: 0;
@@ -52,4 +56,17 @@ a:focus {
 footer {
     margin-top: 40px;
     font-size: 16px;
+    text-align: center; /* Ensure text is centered in footer */
+}
+
+/* Media Query for small devices like phones */
+@media (max-width: 768px) {
+    body {
+        padding-left: 10px; /* Adding some padding to prevent content touching the edges */
+        padding-right: 10px;
+    }
+
+    #about {
+        max-width: 90%; /* Allow for a little more room on small screens */
+    }
 }
