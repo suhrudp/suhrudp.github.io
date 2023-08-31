@@ -22,7 +22,7 @@ h1 {
 }
 
 h2 {
-    font-weight: 150;
+    font-weight: 200;
 }
 
 #profile-image {
@@ -48,6 +48,12 @@ a {
 
 a:hover {
     color: #FFA500;
+}
+
+header {
+    margin-top: 40px;
+    font-size: 16px;
+    text-align: center;
 }
 
 footer {
