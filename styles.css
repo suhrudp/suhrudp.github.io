@@ -18,6 +18,11 @@ body {
 h1 {
     text-align: center !important;
     margin-top: 50px;
+    font-weight: 200;
+}
+
+h2 {
+    font-weight: 150;
 }
 
 #profile-image {
