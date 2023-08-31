@@ -13,7 +13,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: 100vh; /* Changed from height to min-height */
+    min-height: 200vh; /* Changed from height to min-height */
 }
 
 h1 {
@@ -21,6 +21,7 @@ h1 {
     font-weight: 200;
     text-align: center !important;
     margin-top: 50px;
+    min-height: 200vh;
 }
 
 h2 {
@@ -50,10 +51,6 @@ a {
 
 a:hover {
     color: #FFA500;
-}
-
-a:focus {
-    outline: 2px solid #FFA500;
 }
 
 footer {
