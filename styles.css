@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    overflow-x: hidden; /* Prevent horizontal scroll */
 }
 
 body {
@@ -14,22 +13,19 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    min-height: 100vh; /* Changed from height to min-height */
 }
 
 h1 {
+    font-family: 'Montserrat', sans-serif;
     text-align: center !important;
+    margin-top: 50px;
 }
 
 #profile-image {
     border-radius: 50%;
     width: 150px;
-    margin: 20px 0; /* Condensed margin properties */
-}
-
-h1 {
-    margin-top: 50px;
-    text-align: center;
+    margin: 20px 0;
 }
 
 #about {
@@ -62,7 +58,7 @@ footer {
 
 @media (max-width: 768px) {
     body {
-        padding: 0 10px; /* Shortened padding definition */
+        padding: 0 10px;
     }
 
     #about {
