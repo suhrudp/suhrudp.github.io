@@ -15,6 +15,13 @@ body {
     min-height: 100vh;
 }
 
+body {
+    background-image: url('images/ring_nebula.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 h1 {
     text-align: center !important;
     margin-top: 50px;
