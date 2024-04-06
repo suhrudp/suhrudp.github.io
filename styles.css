@@ -13,9 +13,6 @@ body {
     flex-direction: column;
     align-items: center;
     min-height: 100vh;
-}
-
-body {
     background-image: url('images/ring_nebula.jpg');
     background-size: cover;
     background-position: center;
