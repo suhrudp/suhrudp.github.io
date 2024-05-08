@@ -71,3 +71,36 @@ footer {
         max-width: 90%;
     }
 }
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+}
+
+.header h1 {
+    font-size: 24px;
+    color: black;
+}
+
+.header p {
+    font-size: 16px;
+    color: grey;
+}
+
+.section h2 {
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+.section p {
+    background-color: lightgrey;
+    padding: 10px;
+    margin-top: 0;
+    line-height: 1.6;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
