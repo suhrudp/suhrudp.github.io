@@ -28,6 +28,8 @@ h2 {
 #profile-image {
     border-radius: 50%;
     width: 150px;
+    height: 150px;
+    object-fit: cover; 
     margin: 20px 0;
 }
 
@@ -35,7 +37,7 @@ h2 {
     margin-top: 30px;
     text-align: center;
     max-width: 800px;
-    overflow-y: auto; /* Added this line */
+    overflow-y: auto; 
 }
 
 a {
