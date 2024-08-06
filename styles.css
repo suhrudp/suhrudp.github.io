@@ -26,11 +26,9 @@ h2 {
 }
 
 #profile-image {
-    border-radius: 50%;
-    width: 150px;
-    height: 150px;
-    object-fit: cover; 
+    border-radius: 15px; /* Soft curved corners */
     margin: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: add a soft shadow */
 }
 
 #about {
