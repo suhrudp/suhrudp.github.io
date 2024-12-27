@@ -73,7 +73,7 @@ footer {
 }
 
 h1, h2, #about, a {
-    text-shadow: 0 0 5px rgba(0, 0, 0, 0.5); /* Adds a subtle glow for better visibility */
+    text-shadow: 0 0 5px rgba(0, 0, 0, 2); /* Adds a subtle glow for better visibility */
 }
 
 body {
