@@ -17,22 +17,55 @@
     }
 
     #background-video {
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     object-fit: cover;
     z-index: -1;
+    transform: scale(1.2);
+    will-change: transform;
     filter: brightness(50%) blur(5px);
     opacity: 0.8;
 }
 
-    body, #about {
+    /* body, #about {
         color: white;
-    }
+    } */
+
+    body, #about {
+    position: relative;
+    background-color: black;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 200vh;
+}
+
+.scrolling-container {
+    position: relative;
+    z-index: 1; /* Content stays above the video */
+    padding: 20px;
+    max-width: 800px;
+    text-align: center;
+    margin: 50px auto;
+}
+        
 </style>
-    
+    <script>
+    const video = document.getElementById('background-video');
+
+    window.addEventListener('scroll', () => {
+        const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+        const zoomFactor = 1 + scrollTop / 1000; // Adjust zoom rate
+        video.style.transform = `scale(${zoomFactor}) translateY(${scrollTop * 0.2}px)`; // Zoom and move
+    });
+</script>
+
     <script type="application/ld+json">
 {
   "@context": "https://schema.org",
