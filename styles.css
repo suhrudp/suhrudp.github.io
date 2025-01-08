@@ -73,12 +73,12 @@ footer {
 }
 
 h1, h2, #about, a {
-    text-shadow: 0 0 5px rgba(0, 0, 0, 2); /* Adds a subtle glow for better visibility */
+    text-shadow: 0 0 5px rgba(0, 0, 0, 2);
 }
 
 body {
     position: relative;
-    background-color: rgba(0, 0, 0, 0.9); /* Slightly transparent black */
+    background-color: rgba(0, 0, 0, 0.9);
     color: white;
     font-family: 'Montserrat', sans-serif;
     font-weight: 100;
